@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <hamburger :is-active="sidebar.opened" class="hamburger-container" @toggleClick="toggleSideBar" />
+    <!-- <hamburger :is-active="sidebar.opened" class="hamburger-container" @toggleClick="toggleSideBar" /> -->
 
     <breadcrumb class="breadcrumb-container" />
 
@@ -82,6 +82,7 @@ export default {
 
   .breadcrumb-container {
     float: left;
+    margin-left: 20px;
   }
 
   .right-menu {
