@@ -5,7 +5,7 @@
     <el-scrollbar wrap-class="scrollbar-wrapper">
       <el-menu
         :default-active="activeMenu"
-        :collapse="isCollapse"
+        :collapse="false"
         :background-color="variables.menuBg"
         :text-color="variables.menuText"
         :unique-opened="false"
@@ -48,16 +48,13 @@ export default {
     },
     variables() {
       return variables
-    },
-    isCollapse() {
-      return !this.sidebar.opened
     }
   }
 }
 </script>
 <style>
   .logo-con{
-    height: 50px;
+    height: 62px;
     width: 210px;
     padding: 10px;
     background-color: white;
