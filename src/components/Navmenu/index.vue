@@ -7,7 +7,7 @@
     @select="handleSelect"
   >
     <el-menu-item index="1"><router-link to="/">首页</router-link></el-menu-item>
-    <el-menu-item index="2">管理中心</el-menu-item>
+    <el-menu-item index="2"><router-link to="/ControlCenter/index">管理中心</router-link></el-menu-item>
     <el-menu-item index="3">数据中心</el-menu-item>
     <el-menu-item index="4">用户工单</el-menu-item>
     <el-menu-item index="5">帮助中心</el-menu-item>
